@@ -32,3 +32,8 @@ ll gcdIterative(ll a, ll b){
 ll lcm(ll a, ll b){
 	return a/(gcdIterative(a,b))*b;
 }
+int main(){
+	debug(gcdIterative(3,5));
+	debug(gcdIterative(5,3));
+	return 0;
+}
